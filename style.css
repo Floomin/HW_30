@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+#usersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  gap: 10px;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info p {
+  margin: 0;
+}
+
+.user-info span {
+  font-weight: bold;
+}
+
+.user-role {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #ebe9fd;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.role-img {
+  width: 30px;
+  height: 30px;
+}
+
+.user-courses {
+  display: flex;
+  gap: 10px;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: #ece9fd;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.course--admin,
+.course--lector {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf3fe;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.course--lector {
+  background-color: #fbeae8;
+}
+
+.course--admin p,
+.course--lector p {
+  margin: 5px;
+  line-height: 25px;
+}
+
+.course-title,
+.course-lector {
+  font-weight: bold;
+}
+
+.course-score {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+}
+
+.satisfactory {
+  color: #ff0000;
+  background-color: #ead9ea;
+}
+
+.good {
+  color: #5100ff;
+  background-color: #c7bdf7;
+}
+
+.very-good {
+  color: #00b2df;
+  background-color: #dce4f8;
+}
+
+.excellent {
+  color: #08b308;
+  background-color: #e3fae3;
+}
